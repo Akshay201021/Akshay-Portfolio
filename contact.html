@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="contact.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="https://dw.convertfiles.com/files/0573024001716416918/untitled%20design%20%281%29.jpg" type="image/gif">
+    <script src="script.js"></script>
+</head>
+<body> 
+    <nav>
+      <a href="index.html">Home </a>
+      <a href="projects.html">Projects </a>
+      <a href="about.html">About Me</a>
+    </nav>
+    <!-- <a href="index.html" class="home-link">
+     Home
+    </a> -->
+    <h1>Contacts</h1>
+    <p>Want projects like this? Contact me, and I'll get back to you as soon as possible</p>
+
+    <div> 
+        <form action="/submit_form" method="POST"> 
+            <div class="form-group">
+                <label for="name"> Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email"> Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="number"> Number</label>
+                <input type="number" id="number" name="number" placeholder="Your Number" required>
+            </div>
+            <div class="form-group">
+                <label for="description"> Website</label>
+                <input type="text" id="description" name="description" placeholder="Describe your website" required>
+            </div>
+            <div class="form-group">
+                <label for="service">Select a Service</label>
+                <select id="service" name="service" required>
+                    <option value="" disabled selected>Select one</option>
+                    <option value="web_design">Web Design</option>
+                    <option value="seo">SEO</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

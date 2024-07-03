@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    flex-direction: column; /* Center the content vertically */
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1000px; /* Adjust width as necessary */
+}
+
+.card {
+    background: linear-gradient(to top, red, yellow);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    transition: transform 0.2s;
+    flex: 1 1 300px; /* Ensures the cards have the same size */
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 15px;
+}
+
+.card-button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.header {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding:10px;
+    border-radius:15px;
+   transition: transform 0.8s ease-in-out;
+  }
+  .icon-link:hover{
+    transform:scale(1.5);
+  }
+  nav{
+    background-color: orange;
+    color:black;
+    font-size:25px;
+    padding:10px;
+    border-radius:10px;
+    width:95%;
+    text-align: center;
+    margin-top: 15px;
+}
+nav a{
+    color:black;
+    margin-left:20px;
+    text-decoration: none;
+    text-align: center;
+}
+

@@ -1,0 +1,30 @@
+nav{
+    background-color: orange;
+    color:black;
+    font-size:25px;
+    padding:10px;
+    border-radius:10px;
+    width:95%;
+    text-align: center;
+    margin-top: 15px;
+}
+nav a{
+    color:black;
+    margin-left:20px;
+    text-decoration: none;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    color:white;
+}
+.main{
+    background-color: red;
+    color:white;
+    border-radius: 15px;
+    padding:10px;
+    font-size:20px;
+}
+body{
+    background-color: black;
+}
